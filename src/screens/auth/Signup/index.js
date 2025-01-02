@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Text, View } from 'react-native'
+import { ScrollView, Text, View } from 'react-native'
 import { styles } from './styles'
 import AuthHeader from '../../../components/AuthHeader'
 import Input from '../../../components/Input'
@@ -17,7 +17,7 @@ const Signup = () => {
     }
 
     return (
-        <View style={styles.container}>
+        <ScrollView style={styles.container}>
             <AuthHeader title="Sign Up" />
 
             <Input label="Name" placeholder="John Doe" />
@@ -39,7 +39,7 @@ const Signup = () => {
                 Already have an account?
                 <Text onPress={onSignIn} style={styles.footerLink}> Sign In </Text>
             </Text>
-        </View>
+        </ScrollView>
     )
 }
 
