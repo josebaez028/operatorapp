@@ -3,6 +3,7 @@ import Splash from './src/screens/auth/Splash';
 import AuthHeader from './src/components/AuthHeader';
 import Signup from './src/screens/auth/Signup';
 import Config from 'react-native-config';
+import Signin from './src/screens/auth/Signin';
 
 export default function App() {
   const googleData = {
@@ -13,7 +14,8 @@ export default function App() {
     <SafeAreaView>
       
       {/* <Splash /> */}
-      <Signup />
+      {/* <Signup /> */}
+      <Signin />
     </SafeAreaView>
     
   );
