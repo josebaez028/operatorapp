@@ -2,3 +2,10 @@ git checkout -b section/authentication-screens
 git add . 
 git commit -m "Change log message" 
 git push origin section/authentication-screens
+
+--------
+# Crear rama nueva y entrar a ella
+git checkout -b section/project-navigation
+
+# Cambiar a la otra rama
+git checkout section/authentication-screens
