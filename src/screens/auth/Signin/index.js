@@ -13,7 +13,7 @@ const Signin = () => {
     const [checked, setChecked] = useState(false);
 
     const onSignUP = () => {
-        console.log('Sign Up')
+        console.log('Sign Up - OK')
     }
 
     return (
